@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asif Iqbal's Web Development Blog</title>
+
+    <style>
+        body {
+            width: 1200px;
+            margin: 0 auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 25px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        a {
+            text-decoration: none;
+            color: navy;
+        }
+
+
+        .top {
+            text-align: center;
+            padding: 40px 0px;
+        }
+
+        nav {
+            background-color: #333;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .menu {
+            float: left;
+            color: #f2f2f2;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        article {
+            background-image: url('https://images.unsplash.com/photo-1557683311-eac922347aa1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29sb3IlMjBncmFkaWVudHxlbnwwfHwwfHx8MA%3D%3D');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+        }
+
+        .featured-title {
+            padding-top: 100px;
+        }
+
+        .blog-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+            width: 40%;
+
+        }
+
+        figcaption {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        .blog-title {
+            padding-top: 80px;
+        }
+
+        .footer-menu {
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="img/banner.png" alt="Blog banner image" width="100%" height="450">
+
+        <div class="top">
+            <h1>Asif Iqbal's Blog</h1>
+            <p>Web Development Tips, Tutorials, and Insights</p>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a class="menu" href="#home">Home</a></li>
+            <li><a class="menu" href="#about">About</a></li>
+            <li><a class="menu" href="#blog">Blog</a></li>
+            <li><a class="menu" href="#resources">Resources</a></li>
+            <li><a class="menu" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+
+        <!-- Featured Post Section -->
+        <section aria-labelledby="featured-title">
+            <h2 class="featured-title">Featured Post</h2>
+            <hr>
+            <br>
+            <article
+                style="border: 2px solid rgb(225, 225, 225); padding: 15px; padding-bottom: 50px; margin-bottom: 50px; ">
+                <header>
+                    <h3>The Future of Full Stack Development in 2025</h3>
+                    <p>Published on November 10, 2024 by Asif Iqbal</p>
+                </header>
+                <figure>
+                    <img class="blog-img" src="img/full stack development.png"
+                        alt="Image related to full stack development" width="100%" height="200">
+                    <figcaption>Exploring the future of full stack development.</figcaption>
+                </figure>
+                <section>
+                    <p>The demand for full stack developers is on the rise as more companies seek professionals who can
+                        handle both front-end and back-end tasks. This post explores emerging technologies and
+                        frameworks for 2025, along with tips to keep your skills relevant in the changing landscape.</p>
+                </section>
+                <footer>
+                    <p><a href="#">Read More</a> | Category: <a href="#">Web Development</a></p>
+                </footer>
+            </article>
+        </section>
+
+        <!-- Blog Post Section -->
+        <section aria-labelledby="blog-title">
+            <h2 class="blog-title">Recent Blog Posts</h2>
+            <hr>
+            <br>
+
+            <article
+                style="border: 2px solid rgb(225, 225, 225);padding: 15px; padding-bottom: 50px; margin-bottom: 50px;">
+                <header>
+                    <h3>Understanding HTML5 Semantic Elements</h3>
+                    <p>Published on November 5, 2024 by Asif Iqbal</p>
+                </header>
+                <figure>
+                    <img class="blog-img" src="https://atlasiko.com/asserts/blog/html-semantic-elements.jpg"
+                        alt="Image representing HTML5" width="100%" height="200">
+                    <figcaption>HTML5 semantic elements make web content more meaningful.</figcaption>
+                </figure>
+                <section>
+                    <p>HTML5 introduced several semantic elements such as <code>&lt;article&gt;</code>,
+                        <code>&lt;aside&gt;</code>, <code>&lt;section&gt;</code>, and more. These tags provide meaning
+                        to your content, improving both accessibility and SEO.
+                    </p>
+                </section>
+                <footer>
+                    <p><a href="#">Read More</a> | Category: <a href="#">HTML</a></p>
+                </footer>
+            </article>
+
+            <article
+                style="border: 2px solid rgb(225, 225, 225); padding: 15px; padding-bottom: 50px; margin-bottom: 50px;">
+                <header>
+                    <h3>JavaScript ES2024: New Features to Look Forward To</h3>
+                    <p>Published on October 28, 2024 by Asif Iqbal</p>
+                </header>
+                <figure>
+                    <img class="blog-img" src="img/js.jpeg" alt="JavaScript code on a screen" width="100%" height="200">
+                    <figcaption>New JavaScript features in ES2024.</figcaption>
+                </figure>
+                <section>
+                    <p>Each year, JavaScript evolves with new features and improvements. In this post, we discuss the
+                        exciting additions in ES2024 and how they will shape modern web development.</p>
+                </section>
+                <footer>
+                    <p><a href="#">Read More</a> | Category: <a href="#">JavaScript</a></p>
+                </footer>
+            </article>
+
+        </section>
+
+        <!-- Resources Section -->
+        <section aria-labelledby="resources-title" style="margin-top: 80px;">
+            <h2 id="resources-title">Helpful Resources</h2>
+            <hr>
+            <ul>
+                <li><a href="#">Web Development Cheatsheet</a></li><br>
+                <li><a href="#">Top 10 JavaScript Frameworks for 2025</a></li><br>
+                <li><a href="#">Understanding CSS Grid and Flexbox</a></li><br>
+            </ul>
+        </section>
+
+    </main>
+    <br><br>
+
+    <!-- Aside Section for Quick Links -->
+    <aside>
+        <h3>🏡 <u>Categories</u></h3>
+        <ul>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+        </ul>
+        <br><br>
+
+        <h3>🏡 <u>Recent Comments</u></h3>
+        <ul>
+            <li>John on <a href="#">Understanding HTML5 Semantic Elements</a></li><br>
+            <li>Sarah on <a href="#">The Future of Full Stack Development in 2025</a></li><br>
+            <li>Michael on <a href="#">JavaScript ES2024 Features</a></li><br>
+        </ul>
+    </aside>
+    <br><br>
+
+    <!-- Footer Section -->
+    <footer class="footer-menu">
+        <p>&copy; 2024 Asif Iqbal's Blog. All Rights Reserved.</p>
+        <nav style="background-color: #fff;">
+            <ul>
+                <li><a style="color: #030303;" href="#privacy-policy">Privacy Policy</a></li>
+                <li><a style="color: #030303;" href="#terms-of-service">Terms of Service</a></li>
+                <li><a style="color: #030303;" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <br><br>
+
+</body>
+
+</html>
